@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+
+.card {
+  background-color: white;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 8px 5px 10px -1px rgb(62, 62, 62);
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top-suite {
+    align-self: flex-start;
+    font-size: 80px;
+  }
+
+  .number {
+    font-size: 100px;
+  }
+
+  .bottom-suite {
+    align-self: flex-end;
+    font-size: 80px;
+  }
+}
+
+.fixed-bottom {
+  color: bisque;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner-txt {
+  padding: 10px;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.spinner-border {
+  animation-duration: 1s;
+}
+
+.red {
+  color: red;
+}
